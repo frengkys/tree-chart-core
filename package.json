@@ -5,7 +5,6 @@
   "main": "build/index.js",
   "module": "build/index.js",
   "scripts": {
-    "install": "npm run build",
     "build": "rm -rf build && npx tsc --declaration true",
     "release": "npm run build && npm publish"
   },
